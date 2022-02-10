@@ -34,7 +34,7 @@ const maxNumber = 5;
 //변경 가능 : Mutable data types: all objects by default are mutable in JS
 
 // 4. Variable types
-// primitive, single item: numbr, string, boolean, null, undefined, symbol
+// primitive, single item: number, string, boolean, null, undefined, symbol
 // object, box container
 // function, first-class function
 

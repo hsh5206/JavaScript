@@ -47,9 +47,13 @@ console.log(fruits);
 fruits.push('strawberry', 'peach', 'lemon');
 console.log(fruits)
 fruits.splice(1); // 특정인덱스부터 전부 삭제
+console.log(fruits)
 fruits.push('strawberry', 'peach', 'lemon');
+console.log(fruits)
 fruits.splice(1, 1); //특정인덱스부터 1개 삭제
+console.log(fruits)
 fruits.splice(1, 1,'apple','melon'); //특정인덱스 부터 1개 삭제하고 그자리에 추가
+console.log(fruits)
 
 // concat (combine two arrays) 배열 합치기 return -> 배열
 const fruits2 = ['a', 'b'];

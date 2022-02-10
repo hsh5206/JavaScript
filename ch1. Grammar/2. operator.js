@@ -52,6 +52,7 @@ const value2 = 4 < 2;
 // 그래서 함수같은 heavy한 요소들은 가장 뒤쪽에 배치
 console.log(`or: ${value1 || value2 || check()}`); 
 // and도 false가 나오면 끝
+
 // often used to compress long if-statement
 // nullableObject && nullableObject.something
 if (nullableObject != null){
@@ -106,12 +107,6 @@ do {
 for (let i = 3; i > 0; i = i -2) {
   //inline variable declaration
   console.log('for')
-}
-
-// for of 문
-a = ['dream', 'coding', 'ellie']
-for (const arg of a) {
-  console.log(arg);
 }
 
 //nested loops
